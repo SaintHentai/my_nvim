@@ -54,6 +54,7 @@ return {
             <Space>fg - Live grep 
             <Space>ft - Refactoring 
             <Space>tr - Open terminal 
+			Ctrl + D  - Close terminal
             <Space>th - Change color theme  
             <Space>tt - Open neo-tree filesystem  
             <Space>e  - Focus neo-tree filesystem  
@@ -63,7 +64,8 @@ return {
 
 			:Lazy     - call lazy panel
 			:Mason    - call masom panel
-			
+		    :checkhealth telescope				
+
 			:q or ZZ  - Exit
 			:q! or ZQ - Quit current file and exit
 			]]
